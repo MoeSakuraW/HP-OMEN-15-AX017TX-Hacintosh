@@ -1,22 +1,22 @@
-# HP-OMEN-15-AX000-Hacintosh
-HP 暗影精灵2 Hackintosh support 10.15 Catalina
+# HP-OMEN-15-AX000-Hacintosh<br>
+HP 暗影精灵2 Hackintosh support 10.15 Catalina<br>
 
-CPU:Intel i5-6300HQ 
-Graphic card: Intel HD 530 
-RAM: 16G DDR4 2133Mhz
-Wireless card: DW1820A(BCM94350ZAE_2){WLAN:1028:0021 BT:0a5c:6412} CARD NUMER:CN-0VW3T3
-原装网卡为英特尔网卡，无法驱动，更换了DW1820A，勉强能用，更新不了系统（重启卡进度条,但是黑果小兵说在BIOS里面屏蔽WIFI和蓝牙之后就能更新了，这个机型的BIOS里面没有相关的选项，所以更新不了），重启不了（卡进度条），睡眠唤醒会freeze,开关WIFI会freeze，蓝牙链接蓝牙耳机会卡顿。
-# DW1820A需要屏蔽5个针脚，不然开机会很快freeze,网卡我测试了DW1820A :CN-08PKF4（BCM94356ZEPA50DX_2）{WLAN:1028:0023 BT:0a5c:6412}，不管屏蔽还是不屏蔽，都会overload和freeze,不要买这个版本。
+CPU:Intel i5-6300HQ <br>
+Graphic card: Intel HD 530 <br>
+RAM: 16G DDR4 2133Mhz<br>
+Wireless card: DW1820A(BCM94350ZAE_2){WLAN:1028:0021 BT:0a5c:6412} CARD NUMER:CN-0VW3T3<br>
+原装网卡为英特尔网卡，无法驱动，更换了DW1820A，勉强能用，更新不了系统（重启卡进度条,但是黑果小兵说在BIOS里面屏蔽WIFI和蓝牙之后就能更新了，这个机型的BIOS里面没有相关的选项，所以更新不了），重启不了（卡进度条），睡眠唤醒会freeze,开关WIFI会freeze，蓝牙链接蓝牙耳机会卡顿。<br>
+# DW1820A需要屏蔽5个针脚，不然开机会很快freeze,网卡我测试了DW1820A :CN-08PKF4（BCM94356ZEPA50DX_2）{WLAN:1028:0023 BT:0a5c:6412}，不管屏蔽还是不屏蔽，都会overload和freeze,不要买这个版本。<br>
 
-![avatar](http://7.daliansky.net/DW1820A/DW1820A_Cover_pins.jpg)
+![avatar](http://7.daliansky.net/DW1820A/DW1820A_Cover_pins.jpg)<br>
 
-handoff和Airdrop可用。
-电池正常
-声卡正常
-核显驱动
-亮度音量快捷键可调
-插耳机也能自动切换
+handoff和Airdrop可用。<br>
+电池正常<br>
+声卡正常<br>
+核显驱动<br>
+亮度音量快捷键可调<br>
+插耳机也能自动切换<br>
 
-# 更新可以先进win,然后重启再进安装启动项，就不会卡进度条了
+# 更新可以先进win,然后重启再进安装启动项，就不会卡进度条了<br>
 
-#  如果出现跑完代码（显卡驱动之后）卡进度条的情况可以先进win，然后重启再进macOS就正常，目前也在寻找解决的办法
+#  如果出现跑完代码（显卡驱动之后）卡进度条的情况可以先进win，然后重启再进macOS就正常，目前也在寻找解决的办法<br>
