@@ -481,7 +481,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>Clovy</string>
+		<string>embedded</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
